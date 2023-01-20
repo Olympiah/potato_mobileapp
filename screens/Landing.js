@@ -2,7 +2,7 @@ import { StyleSheet, View, Dimensions, TouchableOpacity, Text } from 'react-nati
 import { LinearGradient } from 'expo-linear-gradient';
 import { MaterialIcons } from '@expo/vector-icons';
 import * as Animatable from 'react-native-animatable';
-import Background from '../images/9'
+// import Background from '../images/9'
 import { ImageBackground } from 'react-native';
 
 
@@ -22,7 +22,7 @@ const Landing = ({ navigation }) => {
                     duration={1500}
                     source={require('../images/logo2.png')}
                     style={styles.logo}
-                    resizeMode = ''>
+                    resizeMode = "center">
 
                 </Animatable.Image>
 
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     text: {
         color: '#ca6702',
         fontSize: 18,
-        fontFamily: 'Poppins'
+        // fontFamily: 'Poppins'
     },
 
     background: {
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
         color: '#000',
         fontSize: 28,
         fontWeight: 'bold',
-        fontFamily: 'Poppins'
+        // fontFamily: 'Poppins'
     },
     button: {
         alignItems: 'flex-end',
